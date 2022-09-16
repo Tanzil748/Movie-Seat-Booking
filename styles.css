@@ -107,8 +107,30 @@ body {
 
 p.text {
   margin: 5px 0px;
+  padding-bottom: 10px;
 }
 
 p.text span {
   color: #6feaf6;
+}
+
+.btn {
+  background-color: white;
+  height: 100%;
+  width: 15%;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #242333;
+}
+
+.btn:active {
+  box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.7);
 }
